@@ -11,7 +11,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.0"
   },
-  "homepage": "http://Infinity-Intellect.github.io/quickfoods-reactjs-",
+  "homepage": "http://infinity-intellect.github.io/quickfoods-reactjs-",
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
