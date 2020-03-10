@@ -16,19 +16,16 @@ export default class HomePageView extends Component {
       displayCart: false,
       isAdd: true
     };
-
+    const url = "https://api.jsonbin.io/b/5dd2b22a2e22356f234db9d2";
     document.title = "QuickFoods Home";
   }
   componentDidMount() {
     this.getData();
   }
-
   async getData() {
-    await axios
-      .get("https://api.jsonbin.io/b/5dd2b22a2e22356f234db9d2")
-      .then(res => {
-        this.setState({ menu: res.data });
-      });
+    await axios.get("https://api.jsonbin.io/b/5dd2b22a2e22356f234db9d2").then(res => {
+      this.setState({ menu: res.data });
+    });
     this.setState({ loading: false });
   }
   showCart = () => {
@@ -38,7 +35,7 @@ export default class HomePageView extends Component {
     this.setState({ displayCart: false });
   };
   search = term => {
-    return function(item) {
+    return function (item) {
       return item.itemname.toLowerCase().includes(term.toLowerCase()) || !item;
     };
   };
@@ -120,11 +117,11 @@ export default class HomePageView extends Component {
               Click for more
             </Button>
           ) : (
-            <div className="alert alert-info">
-              That's It <strong>Folks</strong> ! We'll ask the{" "}
-              <strong>Chef</strong> to add more items
+              <div className="alert alert-info">
+                That's It <strong>Folks</strong> ! We'll ask the{" "}
+                <strong>Chef</strong> to add more items
             </div>
-          )}
+            )}
         </div>
       </div>
     );
