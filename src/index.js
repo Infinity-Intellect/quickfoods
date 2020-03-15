@@ -12,7 +12,7 @@ document.body.style = "background-image:url(" + wallpaper + ")";
 document.body.style.backgroundAttachment = "fixed";
 
 const Routing = (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
       <Route exact path="/" component={App} />
       <Route path="/cart" component={CartView} />
