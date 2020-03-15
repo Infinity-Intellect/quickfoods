@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import quickfoods from "../quickfoodslogo.png";
+
+//Defines  the header
 export default class Header extends Component {
   render() {
     return (
