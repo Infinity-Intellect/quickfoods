@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+// Used to add to cart
 export default class ButtonAdd extends Component {
   render() {
     return (
