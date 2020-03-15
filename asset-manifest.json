@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/quickfoods-reactjs-/static/css/main.34de6062.chunk.css",
+    "main.js": "/quickfoods-reactjs-/static/js/main.80fd3fb6.chunk.js",
+    "main.js.map": "/quickfoods-reactjs-/static/js/main.80fd3fb6.chunk.js.map",
+    "runtime-main.js": "/quickfoods-reactjs-/static/js/runtime-main.5b3fa1fa.js",
+    "runtime-main.js.map": "/quickfoods-reactjs-/static/js/runtime-main.5b3fa1fa.js.map",
+    "static/css/2.f93178fb.chunk.css": "/quickfoods-reactjs-/static/css/2.f93178fb.chunk.css",
+    "static/js/2.cc36499b.chunk.js": "/quickfoods-reactjs-/static/js/2.cc36499b.chunk.js",
+    "static/js/2.cc36499b.chunk.js.map": "/quickfoods-reactjs-/static/js/2.cc36499b.chunk.js.map",
+    "index.html": "/quickfoods-reactjs-/index.html",
+    "precache-manifest.a1678fe4f192f1aa0e8606c8fba63d67.js": "/quickfoods-reactjs-/precache-manifest.a1678fe4f192f1aa0e8606c8fba63d67.js",
+    "service-worker.js": "/quickfoods-reactjs-/service-worker.js",
+    "static/css/2.f93178fb.chunk.css.map": "/quickfoods-reactjs-/static/css/2.f93178fb.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/quickfoods-reactjs-/static/css/main.34de6062.chunk.css.map",
+    "static/js/2.cc36499b.chunk.js.LICENSE.txt": "/quickfoods-reactjs-/static/js/2.cc36499b.chunk.js.LICENSE.txt",
+    "static/media/quickfoodslogo.png": "/quickfoods-reactjs-/static/media/quickfoodslogo.4c410abf.png",
+    "static/media/wallpaper3.gif": "/quickfoods-reactjs-/static/media/wallpaper3.b5fd3fbe.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b3fa1fa.js",
+    "static/css/2.f93178fb.chunk.css",
+    "static/js/2.cc36499b.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.80fd3fb6.chunk.js"
+  ]
+}
