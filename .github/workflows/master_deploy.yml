@@ -1,0 +1,25 @@
+name: GHPagesPushDeploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install Packages
+      run: npm install
+    - name: Deploy to GH Pages
+      run: |
+        git config --global user.email "snavaneetharan@gmail.com"
+        git config --global user.name "Infinity-Intellect"
+        git remote set-url origin https://b65d85644a01d41b4148567a3e0f42b46b5d678b@github.com/Infinity-Intellect/quickfoods.git
+        npm run deploy
