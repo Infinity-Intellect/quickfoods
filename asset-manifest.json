@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quickfoods/static/css/main.34de6062.chunk.css",
-    "main.js": "/quickfoods/static/js/main.dba8c1a9.chunk.js",
-    "main.js.map": "/quickfoods/static/js/main.dba8c1a9.chunk.js.map",
+    "main.js": "/quickfoods/static/js/main.cf604d9d.chunk.js",
+    "main.js.map": "/quickfoods/static/js/main.cf604d9d.chunk.js.map",
     "runtime-main.js": "/quickfoods/static/js/runtime-main.238dc927.js",
     "runtime-main.js.map": "/quickfoods/static/js/runtime-main.238dc927.js.map",
     "static/css/2.f93178fb.chunk.css": "/quickfoods/static/css/2.f93178fb.chunk.css",
     "static/js/2.cc36499b.chunk.js": "/quickfoods/static/js/2.cc36499b.chunk.js",
     "static/js/2.cc36499b.chunk.js.map": "/quickfoods/static/js/2.cc36499b.chunk.js.map",
     "index.html": "/quickfoods/index.html",
-    "precache-manifest.fa0d8ec86e9b177cc0873f077f1085f1.js": "/quickfoods/precache-manifest.fa0d8ec86e9b177cc0873f077f1085f1.js",
+    "precache-manifest.635809588ca0dbf3412efea49eec8e1f.js": "/quickfoods/precache-manifest.635809588ca0dbf3412efea49eec8e1f.js",
     "service-worker.js": "/quickfoods/service-worker.js",
     "static/css/2.f93178fb.chunk.css.map": "/quickfoods/static/css/2.f93178fb.chunk.css.map",
     "static/css/main.34de6062.chunk.css.map": "/quickfoods/static/css/main.34de6062.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.f93178fb.chunk.css",
     "static/js/2.cc36499b.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.dba8c1a9.chunk.js"
+    "static/js/main.cf604d9d.chunk.js"
   ]
 }

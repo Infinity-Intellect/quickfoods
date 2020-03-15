@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1ef44246454f214cdea15de8a7fcffc",
+    "revision": "0532d7d53c006acaf92bb35456b6709e",
     "url": "/quickfoods/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quickfoods/static/css/2.f93178fb.chunk.css"
   },
   {
-    "revision": "eaa2d37dda8ae8b7e4eb",
+    "revision": "e451dddf7044579db350",
     "url": "/quickfoods/static/css/main.34de6062.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quickfoods/static/js/2.cc36499b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eaa2d37dda8ae8b7e4eb",
-    "url": "/quickfoods/static/js/main.dba8c1a9.chunk.js"
+    "revision": "e451dddf7044579db350",
+    "url": "/quickfoods/static/js/main.cf604d9d.chunk.js"
   },
   {
     "revision": "07cb78a0ea31da7a1dde",
