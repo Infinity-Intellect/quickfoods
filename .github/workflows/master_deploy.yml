@@ -21,5 +21,5 @@ jobs:
       run: |
         git config --global user.email "snavaneetharan@gmail.com"
         git config --global user.name "Infinity-Intellect"
-        git remote set-url origin https://b65d85644a01d41b4148567a3e0f42b46b5d678b@github.com/Infinity-Intellect/quickfoods.git
+        git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/Infinity-Intellect/quickfoods.git
         npm run deploy
